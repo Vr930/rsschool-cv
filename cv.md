@@ -25,7 +25,7 @@ const sequenceSum = (begin, end) => { <br>
 }; <br>
 console.log(sequenceSum(-3, 2));  // (-3) + (-2) + (-1) + 0 + 1 + 2 = -3
 ## Experience
-[https://github.com/Vr930/Calculator] ("Calculator")
+[https://github.com/Vr930/Calculator] "Calculator"
 ## Education
 - belarusian national technical university
 - [Hexlet](https://ru.hexlet.io/my)
