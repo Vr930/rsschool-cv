@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rs-school</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="title">
+                <h1 class="title-name">Ryzhov Vladislav</h1>
+                <p>FRONT-END DEVELOPER</p>
+                
+            </div>
+            <div class="title-image">
+                <div class="title-image-foto">
+                    <img src="assets/img/IMG_0495.JPG" width="400" height="510" alt="no img">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="content"> 
+                <div class="content-summary"> Summary</div>
+                
+                    <div class="content-summary-text">
+                        I’ve been working as a design engineer for 5 years, and I want to change my profession to a Frontend Development, because I like to develop and learning new technologies.
+                        I am motivated and well organized.I like to solve problems, find solutions, learn and try something new.
+                    </div>
+                <div class="content-summary"> Education</div>
+
+                    <div class="content-education-text">
+                       Belarusian National Technical University and  <a href="https://ru.hexlet.io/my" target="_blank">Hexlet</a> 
+                    </div>
+                
+                <div class="content-summary"> Code exemple</div>
+
+                    <div class="content-cod-text">
+                           <span class = weight> const </span>  <span class="red">sequenceSum</span>  = (begin, end) => { <br>
+                                &nbsp; &nbsp; &nbsp; <span class="red">if</span>  (begin > end) { <br>
+                                    &nbsp; &nbsp; &nbsp; <span class="red">return</span>  NaN; <br>
+                                    &nbsp; &nbsp;&nbsp;} <br>
+                                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span class="red">if</span> (begin === end) { <br>
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <span class="red">return</span> begin; <br>
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; } <br>
+                                        &nbsp; &nbsp; &nbsp; <span class="red">return</span> begin + sequenceSum(begin + 1, end); <br>
+                         }; <br>
+                         <span class = weight> console.log </span>(sequenceSum(-3, 2));  // (-3) + (-2) + (-1) + 0 + 1 + 2 = -3
+                    </div>
+
+                
+            </div>
+            <div class="info">
+                <div class="info-contacts">Contacts</div>
+                    <ul>
+                        <li>Phone: +375(29)309-07-20</li>
+                        <li>E-mail: Vr930@mail.ru</li>
+                        <li>Telegram: @vr930</li>
+                        <li>Discord: @vr930</li>
+                    </ul>
+            <br>
+                
+                <div class="info-contacts">Skills</div> 
+                    <ul>
+                        <li>HTML (HTML5, PUG)</li>
+                        <li>CSS (CSS3, SCSS, BEM)</li>
+                        <li> JavaScript (ES6)</li>
+                        <li> Git</li>
+                        <li> Visual Studio Code</li>
+            
+                    </ul>
+            <br>
+                
+                <div class="info-contacts">Languages</div>
+                    <ul>
+                    <li>Russian - native speaker</li>
+                    <li>Belarusian - native speaker</li>
+                    <li>English (A2)</li>
+                    
+                 </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-bottom">
+                <a href="https://github.com/Vr930" target="_blank">
+                    <img src="assets/img/github.svg" width="50" alt="github_icon">
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <a href="https://rs.school/js/" target="_blank">
+                    <img src="assets/img/rs_school_js.svg" width="160" alt="rs-school-logo">
+                </a>
+            </div>
+            <div class="date">
+                <p class="footer-right">
+                    Created in <br>
+                    2021
+                </p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
