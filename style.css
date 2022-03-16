@@ -1,0 +1,131 @@
+body {
+    max-width: 1200px;
+    margin: 0px auto;
+    
+    }
+
+.wrapper{
+   
+   margin: 40px;
+    box-shadow: 0 15px 65px rgb(3, 0, 5);
+    background-color: rgb(200, 226, 238);
+}
+
+
+header {
+    max-height: 510px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73,168,253);
+   
+}
+
+.title {
+   
+    padding: 150px 20px;
+    margin: 0 auto;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}
+
+.title-image {
+
+    
+   
+    
+}
+
+main {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    border-right: 5px solid black;
+    width: 1800px;
+    margin: 10px 30px;
+    padding-right: 20px;
+}
+
+.info{
+    min-width: 306px;
+    font-family:unset;
+    font-size: 20px;
+   
+}
+
+li {
+  color: rgb(21, 111, 163);
+}
+
+.info-contacts{
+    padding-bottom: 10px;
+    font-weight: 900;
+    text-decoration: underline;
+    font-size: 27px;
+}
+
+.content-summary{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-summary-text {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.content-education-text{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.content-cod-text {
+    padding-top: 35px;
+   font-size: 19px;
+}
+
+.footer {
+    margin-top: 150px;
+    border-top: 5px solid black;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-right {
+    
+    font-size: 25px;
+font-weight: 900;
+text-align: center;
+}
+
+.red {
+    font-size: 21px;
+    color: brown;
+}
+
+.weight {
+    font-weight: 600;
+}
+
+.new {
+    color: blue;
+    margin-top: 150px;
+    font-size: large;
+    font-weight: 300;
+}
